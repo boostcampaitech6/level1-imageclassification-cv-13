@@ -3,10 +3,13 @@
 ### Subject
 
 We aim to train a robust model which classifies person age, gender and wearing mask.
+Prepared dataset is consist of 18 classes.
+
+음.. 머라고 적죠?
 
 
 
-### 
+### Our strategies
 
 
 
@@ -14,8 +17,9 @@ We aim to train a robust model which classifies person age, gender and wearing m
 
 
 
+### Final Submit
 
-
+<img src="" alt="테스트 이미지1">
 
 
 
