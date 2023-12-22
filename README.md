@@ -1,33 +1,36 @@
-## Image Classification Competition 
+## Description
 
-### Subject
+Pytorch baseline code
 
-We aim to train a robust model which classifies person age, gender and wearing mask.
-Prepared dataset is consist of 18 classes.
+## Usage
+### Miniconda
 
-음.. 머라고 적죠?
+If not installed miniconda in desktop, use command for install
+```bash
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh
+```
 
+```bash
+pip install virtualenv
+cd ${PROJECT}
+python -m venv /v2/venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
 
+### Train
 
-### Our strategies
+```bash
+wandb login
+```
+```bash
+python train.py
+```
 
+### Pretrained
 
+```bash
+python train.py --pretrained
+```
 
-
-
-
-
-### Final Submit
-
-<img src="" alt="테스트 이미지1">
-
-
-
-
-
-### Collaborators
-
-|김영알|남현우|유영범|이규섭|이동휘|
-|------|------|------|-------|------|
-|이미지1|이미지2|이미지3|이미지4|이미지5|
-|링크1|링크2|링크3|링크4|링크5|
