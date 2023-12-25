@@ -5,8 +5,6 @@
 We aim to train a robust model which classifies person age, gender and wearing mask.
 Prepared dataset is consist of 18 classes.
 
-음.. 머라고 적죠?
-
 
 
 ### Our strategies
