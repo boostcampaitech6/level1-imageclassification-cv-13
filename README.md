@@ -1,33 +1,21 @@
-## Image Classification Competition 
+# Image Classification Model
 
-### Subject
+## Overview
+This image classification model specializes in analyzing face photos and categorizing them into three key aspects: mask status (identifying whether a mask is worn or not), gender (distinguishing between two genders), and age (classifying into three distinct age groups).
 
-We aim to train a robust model which classifies person age, gender and wearing mask.
-Prepared dataset is consist of 18 classes.
+## Installation
+To set up the model, follow these steps:
+```bash
+git clone https://github.com/boostcampaitech6/level1-imageclassification-cv-13.git
+pip install -r requirements.txt
+```
 
-음.. 머라고 적죠?
+## train
+```bash
+python train.py [--args] [args]
+```
 
-
-
-### Our strategies
-
-
-
-
-
-
-
-### Final Submit
-
-<img src="" alt="테스트 이미지1">
-
-
-
-
-
-### Collaborators
-
-|김영알|남현우|유영범|이규섭|이동휘|
-|------|------|------|-------|------|
-|이미지1|이미지2|이미지3|이미지4|이미지5|
-|링크1|링크2|링크3|링크4|링크5|
+## Inference
+```bash
+python inference.py [--args] [args]
+```
