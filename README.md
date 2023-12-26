@@ -1,33 +1,24 @@
 ## Image Classification Competition 
 
-### Subject
+### Description
 
-We aim to train a robust model which classifies person age, gender and wearing mask.
-Prepared dataset is consist of 18 classes.
+Used given pytorch baseline code
 
-음.. 머라고 적죠?
+### Train
 
+python train.py --model [model] 
 
+### Inference
 
-### Our strategies
+python inference.py --model [model]
 
+### Score
+<details>
+<summary>f1 score</summary>
+<div>
 
+![image](https://github.com/boostcampaitech6/level1-imageclassification-cv-13/assets/103584775/6ee4c77b-ca57-4520-9e98-e6d18f688b0c)
 
+</div>
+</details>
 
-
-
-
-### Final Submit
-
-<img src="" alt="테스트 이미지1">
-
-
-
-
-
-### Collaborators
-
-|김영알|남현우|유영범|이규섭|이동휘|
-|------|------|------|-------|------|
-|이미지1|이미지2|이미지3|이미지4|이미지5|
-|링크1|링크2|링크3|링크4|링크5|
