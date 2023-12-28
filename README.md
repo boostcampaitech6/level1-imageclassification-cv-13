@@ -2,7 +2,7 @@
 
 ### Description
 
-Used given pytorch baseline code
+Customized given pytorch baseline code
 
 ### Train
 
