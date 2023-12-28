@@ -12,7 +12,7 @@ python train.py --model [model]
 
 python inference.py --model [model]
 
-### Score
+### Score Overview
 <details>
 <summary>f1 score</summary>
 <div>
